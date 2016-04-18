@@ -1,5 +1,6 @@
 <?php
 
+define('MODULE_DIR', __DIR__ . "/../Modules");
 
 /** load composer autoloader */
 if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
